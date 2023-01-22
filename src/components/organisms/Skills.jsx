@@ -1,5 +1,5 @@
 import styles from "../../assets/styles/Skills.css"
-import Title from "./Title";
+import Title from "../atoms/Title";
 import Graficas from "../../assets/images/Graficas.png"
 const Skills = () => {
     return ( 

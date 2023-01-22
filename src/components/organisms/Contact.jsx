@@ -1,7 +1,7 @@
 import styles from "../../assets/styles/Contact.css";
-import Title from "./Title";
+import Title from "../atoms/Title";
 import Email from "../../assets/images/Email.svg";
-import Text from "./Text";
+import Text from "../atoms/Text";
 import Phone from "../../assets/images/Phone.svg"
 import Ubication from "../../assets/images/Vector.svg";
 const Contact = () => {

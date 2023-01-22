@@ -1,8 +1,8 @@
-import Header from "../components/atoms/Header";
-import AboutMe from "../components/atoms/AboutMe";
-import Skills from "../components/atoms/Skills";
-import Contact from "../components/atoms/Contact";
-import Education from "../components/atoms/Education";
+import Header from "../components/organisms/Header";
+import AboutMe from "../components/organisms/AboutMe";
+import Skills from "../components/organisms/Skills";
+import Contact from "../components/organisms/Contact";
+import Education from "../components/organisms/Education";
 import styles from "../assets/styles/Home.css";
 const Home = () => {
   return (
@@ -10,7 +10,6 @@ const Home = () => {
       <Header></Header>
       <div className="home">
         <div className="left">
-         
           <AboutMe></AboutMe>
           <Contact></Contact>
         </div>

@@ -1,7 +1,7 @@
 import styles from "../../assets/styles/AboutMe.css"
 import information from "../../data/information.js";
-import Text from "./Text";
-import Title from "./Title";
+import Text from "../atoms/Text";
+import Title from "../atoms/Title";
 const AboutMe = () => {
     return ( 
         <div className="aboutMe">

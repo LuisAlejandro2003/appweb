@@ -1,7 +1,7 @@
 import styles from "../../assets/styles/Education.css"
 import information from "../../data/information";
-import Title from "./Title";
-import Text from "./Text";
+import Title from "../atoms/Title";
+import Text from "../atoms/Text";
 const Education = () => {
     return ( 
         <div className="Education">
