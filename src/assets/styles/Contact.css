@@ -1,8 +1,13 @@
 .Contact{
-width: 27%;
+/* width: 27%;
 
 margin: 0% 5%;
-margin-top: 2%;
+margin-top: 2%; */
+
+width: 90%;
+
+margin-top: 5%;
+margin-left: 0;
 
 background: #F7B41F;
 border-radius: 50px;

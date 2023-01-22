@@ -1,8 +1,9 @@
 .aboutMe {
-    width: 28%;
+    width: 90%;
   
-    margin: 0% 5%;
-    margin-top: 2%;
+    
+    margin-top: 5%;
+    margin-left: 0;
     background: #d9d9d9;
     border-radius: 20px;
   }
