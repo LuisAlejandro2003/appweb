@@ -1,6 +1,8 @@
 import styles from "../../assets/styles/Header.css";
 import Me from "../../assets/images/Me.svg";
 import information from "../../data/information.js";
+import Text from "../atoms/Text";
+import Title from "../atoms/Title";
 const Header = () => {
   return (
     <div className="header">
@@ -9,10 +11,10 @@ const Header = () => {
       </div>
       <div className="Text">
         <div className="name">
-          <h1 className="title">{information.Nombre}</h1>
+          <Title className="title">{information.Nombre}</Title>
         </div>
         <div className="profesion">
-          <p>{information.Profesion}</p>
+          <Text>{information.Profesion}</Text>
         </div>
       </div>
     </div>

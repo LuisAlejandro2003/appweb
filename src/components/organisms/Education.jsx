@@ -5,7 +5,7 @@ import Text from "../atoms/Text";
 const Education = () => {
     return ( 
         <div className="Education">
-           <Title>Formacion</Title>
+           <Title>{information.Formacion}</Title>
            <Text>{information.Secundaria}</Text>
            <Text>{information.Preparatoria}</Text>
            <Text>{information.Universidad}</Text>
