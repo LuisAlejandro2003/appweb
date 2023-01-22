@@ -1,9 +1,22 @@
 import styles from "../../assets/styles/Education.css"
+import information from "../../data/information";
+import Title from "./Title";
+import Text from "./Text";
 const Education = () => {
     return ( 
         <div className="Education">
-           <h1>Formacion</h1>
+           <Title>Formacion</Title>
+           <Text>{information.Secundaria}</Text>
+           <Text>{information.Preparatoria}</Text>
+           <Text>{information.Universidad}</Text>
+
+           <Title>{information.ap}</Title>
+           <Text>{information.Iniciativa}</Text>
+           <Text>{information.Trabajo}</Text>
+           <Text>{information.Resolucion}</Text>
+           <Text>{information.Comu}</Text>
         </div>
+        
      );
 }
  

@@ -1,12 +1,18 @@
 
 .Skills{
-    /* width: 55%;
-    background: #d9d9d9;
-    border-radius: 60px; */
+
     width: 95%;
     height: 30%;
+    padding: 5%;
     margin: 0% 5%;
     margin-top: 2%;
     background: #d9d9d9;
     border-radius: 20px;
+   
+    text-align: justify;
 }
+.Graficas img {
+    width: 50%;
+    margin-left: 25%; 
+    padding-top: 4%;
+  }
